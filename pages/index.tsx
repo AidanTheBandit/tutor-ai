@@ -23,7 +23,7 @@ const Home: NextPage = () => {
     }
   };
 
-  const prompt = `Explain ${bio} to a 6nd grader with a simple example.`;
+  const prompt = `Explain ${bio} to a 6th grader with a simple example.`;
 
   const generateBio = async (e: any) => {
     e.preventDefault();
