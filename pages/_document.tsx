@@ -10,10 +10,10 @@ class MyDocument extends Document {
             name="description"
             content="Ai homework assistant."
           />
-          <meta property="og:site_name" content="twitterbio.com" />
+          <meta property="og:site_name" content="AI Tutor" />
           <meta
             property="og:description"
-            content="Generate your next Twitter bio in seconds."
+            content="Get help with homework in seconds."
           />
           <meta property="og:title" content="Ai Tutor" />
           <meta name="twitter:card" content="summary_large_image" />
