@@ -76,6 +76,7 @@ const Home: NextPage = () => {
         Homework help now!
         </h1>
         <p className="text-slate-500 mt-5">Brought to you by BanditCo!</p>
+        <p className="text-slate-500 mt-5">Format questions as "Explain the 'topic here'" but don't include "Explain the"!!!</p>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
             <Image
@@ -99,7 +100,7 @@ const Home: NextPage = () => {
             rows={4}
             className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-5"
             placeholder={
-              "e.g. The square root of 16, How to make a basic python script, The american revolution, etc."
+              "The american revolution."
             }
           />
 
