@@ -4,15 +4,10 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: "/github",
-        destination: "https://github.com/Nutlope/twitterbio",
+        source: "/barkle",
+        destination: "https://barkle.chat/@Avunite",
         permanent: false,
-      },
-      {
-        source: "/deploy",
-        destination: "https://vercel.com/templates/next.js/twitter-bio",
-        permanent: false,
-      },
+      }
     ];
   },
 };

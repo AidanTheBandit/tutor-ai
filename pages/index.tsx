@@ -73,7 +73,7 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
-          Get help on homework now!
+        Homework help now!
         </h1>
         <p className="text-slate-500 mt-5">Brought to you by BanditCo!</p>
         <div className="max-w-xl w-full">
@@ -88,7 +88,7 @@ const Home: NextPage = () => {
             <p className="text-left font-medium">
               Enter in a question!{" "}
               <span className="text-slate-500">
-                (Ex: Square root of 16)
+                (Ex: The square root of 16)
               </span>
               .
             </p>
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
             rows={4}
             className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-5"
             placeholder={
-              "e.g. Senior Developer Advocate @vercel. Tweeting about web development, AI, and React / Next.js. Writing nutlope.substack.com."
+              "e.g. The square root of 16, How to make a basic python script, The american revolution, etc."
             }
           />
 
@@ -134,7 +134,7 @@ const Home: NextPage = () => {
                   className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto"
                   ref={bioRef}
                 >
-                  Your generated bios
+                  Responses
                 </h2>
               </div>
               <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
